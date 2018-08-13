@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Syntax Highlighting Preview</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="Syntax Highlighting Preview">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="Syntax Highlighting Preview">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://hugo_go-ged75356.codeanyapp.com/posts/syntax-highlighting-preview/">
+	<meta name="og:site_name" content="Syntax Highlighting Preview">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="example code ">
+	<link rel="stylesheet" type="text/css" href="https://hugo_go-ged75356.codeanyapp.com/css/style.css">
+	
+	
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+
+<body>
+
+<header>
+	
+	<a href="https://hugo_go-ged75356.codeanyapp.com/" style="float: left;color:#ff3b30;">Bolo Bolo</a>
+	
+	&nbsp;&nbsp;<a href="https://hugo_go-ged75356.codeanyapp.com/archives/" style="color:#777;">Archives</a>&nbsp;&nbsp;<a href="https://hugo_go-ged75356.codeanyapp.com/about/" style="color:#777;">About</a>
+	
+	
+	
+	<a href="https://hugo_go-ged75356.codeanyapp.com/index.xml" style="color:#777;float: right;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+</header>
+
+
+<div id="loadingMask" style="width: 100%; height: 100%; position: fixed; background: #fff;"></div>
+<script>
+function fadeOut(el) {
+  el.style.opacity = 1;
+
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity - (new Date() - last) / 80;
+    last = +new Date();
+    
+
+    if (el.style.opacity > 0) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    } else {
+      el.style.display='none';
+    }
+  };
+
+  tick();
+}
+
+function ready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+         el = document.getElementById('loadingMask');
+         fadeOut(el);
+        var elements = document.querySelectorAll("img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("alt")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("alt"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+window.onload = ready;
+</script>
+
+<div class="content">
+  <h1>Syntax Highlighting Preview <aside><a href="/tags/example/">example</a></a>&nbsp;&nbsp;&nbsp;<a href="/tags/code/">code</a></a>&nbsp;&nbsp;&nbsp;</aside></h1>
+  <p>Hugo comes with really fast syntax highlighting from Chroma and provides a <a href="https://xyproto.github.io/splash/docs/all.html">Chroma style gallery</a>. You can configure syntax highlighter in the <code>config.toml</code> file. The theme one uses the pygments style color style.</p>
+
+<p>Chroma demo below:</p>
+
+<p>Bash</p>
+<div class="highlight"><pre style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#bc7a00">#!/bin/bash
+</span><span style="color:#bc7a00"></span>
+<span style="color:#408080;font-style:italic">###### CONFIG
+</span><span style="color:#408080;font-style:italic"></span><span style="color:#19177c">ACCEPTED_HOSTS</span><span style="color:#666">=</span><span style="color:#ba2121">&#34;/root/.hag_accepted.conf&#34;</span>
+<span style="color:#19177c">BE_VERBOSE</span><span style="color:#666">=</span><span style="color:#008000">false</span>
+
+<span style="color:#008000;font-weight:bold">if</span> <span style="color:#666">[</span> <span style="color:#ba2121">&#34;</span><span style="color:#19177c">$UID</span><span style="color:#ba2121">&#34;</span> -ne <span style="color:#666">0</span> <span style="color:#666">]</span>
+<span style="color:#008000;font-weight:bold">then</span>
+    <span style="color:#008000">echo</span> <span style="color:#ba2121">&#34;Superuser rights required&#34;</span>
+    <span style="color:#008000">exit</span> <span style="color:#666">2</span>
+<span style="color:#008000;font-weight:bold">fi</span>
+
+genApacheConf<span style="color:#666">()</span> <span style="color:#666">{</span>
+    <span style="color:#008000">echo</span> -e <span style="color:#ba2121">&#34;# Host </span><span style="color:#b68;font-weight:bold">${</span><span style="color:#19177c">HOME_DIR</span><span style="color:#b68;font-weight:bold">}</span><span style="color:#19177c">$1</span><span style="color:#ba2121">/</span><span style="color:#19177c">$2</span><span style="color:#ba2121"> :&#34;</span>
+<span style="color:#666">}</span></code></pre></div>
+<p>JavaScript</p>
+<div class="highlight"><pre style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#008000;font-weight:bold">function</span> $initHighlight(block, cls) {
+
+    <span style="color:#008000;font-weight:bold">try</span> {
+        <span style="color:#008000;font-weight:bold">if</span> (cls.search(<span style="color:#b68">/\bno\-highlight\b/</span>) <span style="color:#666">!=</span> <span style="color:#666">-</span><span style="color:#666">1</span>)
+        <span style="color:#008000;font-weight:bold">return</span> process(block, <span style="color:#008000;font-weight:bold">true</span>, <span style="color:#666">0x0F</span>) <span style="color:#666">+</span> <span style="color:#ba2121">` class=&#34;</span><span style="color:#b68;font-weight:bold">${</span>cls<span style="color:#b68;font-weight:bold">}</span><span style="color:#ba2121">&#34;`</span>;
+    } <span style="color:#008000;font-weight:bold">catch</span> (e) {
+        <span style="color:#408080;font-style:italic">/* handle exception */</span>
+    }
+    <span style="color:#008000;font-weight:bold">for</span> (<span style="color:#008000;font-weight:bold">var</span> i <span style="color:#666">=</span> <span style="color:#666">0</span> <span style="">/ 2; i &lt; classes.length; i++) {</span>
+        <span style="color:#008000;font-weight:bold">if</span> (checkCondition(classes[i]) <span style="color:#666">===</span> <span style="color:#008000;font-weight:bold">undefined</span>)
+        console.log(<span style="color:#ba2121">&#39;undefined&#39;</span>);
+    }
+}
+
+<span style="color:#008000;font-weight:bold">export</span>  $initHighlight;
+</code></pre></div>
+<p>Python</p>
+<div class="highlight"><pre style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f">@requires_authorization</span>
+<span style="color:#008000;font-weight:bold">def</span> <span style="color:#00f">somefunc</span>(param1<span style="color:#666">=</span><span style="color:#ba2121">&#39;&#39;</span>, param2<span style="color:#666">=</span><span style="color:#666">0</span>):
+
+    <span style="color:#ba2121">r</span><span style="color:#ba2121">&#39;&#39;&#39;A docstring&#39;&#39;&#39;</span>
+    <span style="color:#008000;font-weight:bold">if</span> param1 <span style="color:#666">&gt;</span> param2: <span style="color:#408080;font-style:italic"># interesting</span>
+        <span style="color:#008000;font-weight:bold">print</span> <span style="color:#ba2121">&#39;Gre</span><span style="color:#b62;font-weight:bold">\&#39;</span><span style="color:#ba2121">ater&#39;</span>
+    <span style="color:#008000;font-weight:bold">return</span> (param2 <span style="color:#666">-</span> param1 <span style="color:#666">+</span> <span style="color:#666">1</span> <span style="color:#666">+</span> <span style="color:#666">0b10</span>l) <span style="color:#a2f;font-weight:bold">or</span> None
+
+<span style="color:#008000;font-weight:bold">class</span> <span style="color:#00f;font-weight:bold">SomeClass</span>:
+    <span style="color:#008000;font-weight:bold">pass</span>
+
+<span style="color:#666">&gt;&gt;&gt;</span> message <span style="color:#666">=</span> <span style="color:#ba2121">&#39;&#39;&#39;interpreter
+</span><span style="color:#ba2121">... prompt&#39;&#39;&#39;</span></code></pre></div>
+<p>Shell Session</p>
+<div class="highlight"><pre style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ <span style="color:#008000">echo</span> <span style="color:#19177c">$EDITOR</span>
+vim
+$ git checkout master
+Switched to branch <span style="color:#ba2121">&#39;master&#39;</span>
+Your branch is up-to-date with <span style="color:#ba2121">&#39;origin/master&#39;</span>.
+$ git push
+Everything up-to-date
+$ <span style="color:#008000">echo</span> <span style="color:#ba2121">&#39;All
+</span><span style="color:#ba2121">&gt; done!&#39;</span>
+All
+<span style="color:#008000;font-weight:bold">done</span>!</code></pre></div>
+</div>
+
+
+  <p><small>Written on December 20, 2017</small></p>
+
+
+
+<footer>
+	<p>&copy; 2018 All rights reserved.</p>
+</footer>
+</body>
+</html>
