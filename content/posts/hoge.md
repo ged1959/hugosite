@@ -7,3 +7,8 @@ draft: true
 コンテンツ追加のテスト。
 
 {{< youtube INYzqG3P7B0 >}}
+
+
+GX7MK3
+
+{{< youtube oW89_wlLelI >}}
