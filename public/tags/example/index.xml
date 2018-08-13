@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Example on Bolo Bolo</title>
-    <link>https://hugo_go-ged75356.codeanyapp.com/tags/example/</link>
+    <link>https://ged1959.github.io/hugosite/tags/example/</link>
     <description>Recent content in Example on Bolo Bolo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Dec 2017 23:30:36 +0800</lastBuildDate>
     
-        <atom:link href="https://hugo_go-ged75356.codeanyapp.com/tags/example/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ged1959.github.io/hugosite/tags/example/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A Little Because by Teshima Aoi</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/posts/a-little-because-by-teshima-aoi/</link>
+      <link>https://ged1959.github.io/hugosite/posts/a-little-because-by-teshima-aoi/</link>
       <pubDate>Thu, 21 Dec 2017 23:30:36 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/posts/a-little-because-by-teshima-aoi/</guid>
+      <guid>https://ged1959.github.io/hugosite/posts/a-little-because-by-teshima-aoi/</guid>
       <description>&lt;p&gt;Share a song &lt;a href=&#34;https://soundcloud.com/momoro-cutiecutie/a-little-because-teshima-aoi&#34;&gt;&amp;ldquo;A Little Because&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -35,10 +35,10 @@
     
     <item>
       <title>Article With Images Preview</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/posts/article-with-images-preview/</link>
+      <link>https://ged1959.github.io/hugosite/posts/article-with-images-preview/</link>
       <pubDate>Wed, 20 Dec 2017 12:36:50 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/posts/article-with-images-preview/</guid>
+      <guid>https://ged1959.github.io/hugosite/posts/article-with-images-preview/</guid>
       <description>&lt;p&gt;ドライブサーガ仮面ライダーチェイサーの打ち上げに行ってきました。一か月皆さんにお会いしてないだけで、随分久しぶりに感じます。お楽しみに！&lt;/p&gt;
 
 &lt;p&gt;ふみかちゃんがバックからおもむろに取り出したティッシュが大きくて笑いました!(記念写真参照)&lt;/p&gt;
@@ -51,10 +51,10 @@
     
     <item>
       <title>Syntax Highlighting Preview</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/posts/syntax-highlighting-preview/</link>
+      <link>https://ged1959.github.io/hugosite/posts/syntax-highlighting-preview/</link>
       <pubDate>Wed, 20 Dec 2017 12:33:21 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/posts/syntax-highlighting-preview/</guid>
+      <guid>https://ged1959.github.io/hugosite/posts/syntax-highlighting-preview/</guid>
       <description>&lt;p&gt;Hugo comes with really fast syntax highlighting from Chroma and provides a &lt;a href=&#34;https://xyproto.github.io/splash/docs/all.html&#34;&gt;Chroma style gallery&lt;/a&gt;. You can configure syntax highlighter in the &lt;code&gt;config.toml&lt;/code&gt; file. The theme one uses the pygments style color style.&lt;/p&gt;
 
 &lt;p&gt;Chroma demo below:&lt;/p&gt;

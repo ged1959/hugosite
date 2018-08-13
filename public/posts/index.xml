@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Bolo Bolo</title>
-    <link>https://hugo_go-ged75356.codeanyapp.com/posts/</link>
+    <link>https://ged1959.github.io/hugosite/posts/</link>
     <description>Recent content in Posts on Bolo Bolo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Aug 2018 13:17:24 +0900</lastBuildDate>
     
-        <atom:link href="https://hugo_go-ged75356.codeanyapp.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ged1959.github.io/hugosite/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My Image</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/posts/my-image/</link>
+      <link>https://ged1959.github.io/hugosite/posts/my-image/</link>
       <pubDate>Mon, 13 Aug 2018 13:17:24 +0900</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/posts/my-image/</guid>
+      <guid>https://ged1959.github.io/hugosite/posts/my-image/</guid>
       <description>&lt;p&gt;氷の写真。表示されるだろうか。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://wired.jp/wp-content/uploads/2014/06/140608shutterstock_95116573.jpg&#34; alt=&#34;氷の写真&#34; /&gt;&lt;/p&gt;
@@ -40,20 +40,20 @@ twitterも。&lt;/p&gt;
     
     <item>
       <title>My Second Post</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/posts/my-second-post/</link>
+      <link>https://ged1959.github.io/hugosite/posts/my-second-post/</link>
       <pubDate>Mon, 13 Aug 2018 13:08:25 +0900</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/posts/my-second-post/</guid>
+      <guid>https://ged1959.github.io/hugosite/posts/my-second-post/</guid>
       <description>&lt;p&gt;今度は時間が正しい。&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/posts/my-first-post/</link>
+      <link>https://ged1959.github.io/hugosite/posts/my-first-post/</link>
       <pubDate>Sat, 11 Aug 2018 12:34:22 -0400</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/posts/my-first-post/</guid>
+      <guid>https://ged1959.github.io/hugosite/posts/my-first-post/</guid>
       <description>&lt;p&gt;最初の書き込み。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;$ hugo new posts/my-first-post.md&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;のコマンドで、ファイルが作成されるので、それを編集すればいい。&lt;/p&gt;
@@ -75,10 +75,10 @@ tags:
     
     <item>
       <title>A Little Because by Teshima Aoi</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/posts/a-little-because-by-teshima-aoi/</link>
+      <link>https://ged1959.github.io/hugosite/posts/a-little-because-by-teshima-aoi/</link>
       <pubDate>Thu, 21 Dec 2017 23:30:36 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/posts/a-little-because-by-teshima-aoi/</guid>
+      <guid>https://ged1959.github.io/hugosite/posts/a-little-because-by-teshima-aoi/</guid>
       <description>&lt;p&gt;Share a song &lt;a href=&#34;https://soundcloud.com/momoro-cutiecutie/a-little-because-teshima-aoi&#34;&gt;&amp;ldquo;A Little Because&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -97,10 +97,10 @@ tags:
     
     <item>
       <title>Article With Images Preview</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/posts/article-with-images-preview/</link>
+      <link>https://ged1959.github.io/hugosite/posts/article-with-images-preview/</link>
       <pubDate>Wed, 20 Dec 2017 12:36:50 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/posts/article-with-images-preview/</guid>
+      <guid>https://ged1959.github.io/hugosite/posts/article-with-images-preview/</guid>
       <description>&lt;p&gt;ドライブサーガ仮面ライダーチェイサーの打ち上げに行ってきました。一か月皆さんにお会いしてないだけで、随分久しぶりに感じます。お楽しみに！&lt;/p&gt;
 
 &lt;p&gt;ふみかちゃんがバックからおもむろに取り出したティッシュが大きくて笑いました!(記念写真参照)&lt;/p&gt;
@@ -113,10 +113,10 @@ tags:
     
     <item>
       <title>Syntax Highlighting Preview</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/posts/syntax-highlighting-preview/</link>
+      <link>https://ged1959.github.io/hugosite/posts/syntax-highlighting-preview/</link>
       <pubDate>Wed, 20 Dec 2017 12:33:21 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/posts/syntax-highlighting-preview/</guid>
+      <guid>https://ged1959.github.io/hugosite/posts/syntax-highlighting-preview/</guid>
       <description>&lt;p&gt;Hugo comes with really fast syntax highlighting from Chroma and provides a &lt;a href=&#34;https://xyproto.github.io/splash/docs/all.html&#34;&gt;Chroma style gallery&lt;/a&gt;. You can configure syntax highlighter in the &lt;code&gt;config.toml&lt;/code&gt; file. The theme one uses the pygments style color style.&lt;/p&gt;
 
 &lt;p&gt;Chroma demo below:&lt;/p&gt;
@@ -184,10 +184,10 @@ All
     
     <item>
       <title>Hugo Quick Start</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/posts/hugo-quick-start/</link>
+      <link>https://ged1959.github.io/hugosite/posts/hugo-quick-start/</link>
       <pubDate>Tue, 20 Dec 2016 20:08:19 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/posts/hugo-quick-start/</guid>
+      <guid>https://ged1959.github.io/hugosite/posts/hugo-quick-start/</guid>
       <description>
 
 &lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1: Install Hugo&lt;/h2&gt;
@@ -252,10 +252,10 @@ theme = &amp;#34;ananke&amp;#34;&lt;/pre&gt;&lt;/div&gt;
     
     <item>
       <title>Hello Hugo!</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/posts/hello-hugo/</link>
+      <link>https://ged1959.github.io/hugosite/posts/hello-hugo/</link>
       <pubDate>Mon, 01 Sep 2014 12:19:03 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/posts/hello-hugo/</guid>
+      <guid>https://ged1959.github.io/hugosite/posts/hello-hugo/</guid>
       <description>
 
 &lt;p&gt;Hello from Hugo! If you&amp;rsquo;re reading this in your browser, good job! The file &lt;code&gt;content/post/hello-hugo.md&lt;/code&gt; has been converted into a complete HTML document by Hugo. Isn&amp;rsquo;t that pretty nifty?&lt;/p&gt;

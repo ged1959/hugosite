@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorial on Bolo Bolo</title>
-    <link>https://hugo_go-ged75356.codeanyapp.com/tags/tutorial/</link>
+    <link>https://ged1959.github.io/hugosite/tags/tutorial/</link>
     <description>Recent content in Tutorial on Bolo Bolo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 20 Dec 2016 20:08:19 +0800</lastBuildDate>
     
-        <atom:link href="https://hugo_go-ged75356.codeanyapp.com/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ged1959.github.io/hugosite/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo Quick Start</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/posts/hugo-quick-start/</link>
+      <link>https://ged1959.github.io/hugosite/posts/hugo-quick-start/</link>
       <pubDate>Tue, 20 Dec 2016 20:08:19 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/posts/hugo-quick-start/</guid>
+      <guid>https://ged1959.github.io/hugosite/posts/hugo-quick-start/</guid>
       <description>
 
 &lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1: Install Hugo&lt;/h2&gt;

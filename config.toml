@@ -1,6 +1,7 @@
 # End your baseURL with a `/` trailing slash, e.g. `https://example.com/`.
 # baseURL = "https://example.com/"
-baseURL = "https://hugo_go-ged75356.codeanyapp.com/"
+# baseURL = "https://hugo_go-ged75356.codeanyapp.com/"
+baseURL = "https://ged1959.github.io/hugosite/"
 
 languageCode = "en-us"
 title = "Bolo Bolo"

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Bolo Bolo</title>
-    <link>https://hugo_go-ged75356.codeanyapp.com/tags/hugo/</link>
+    <link>https://ged1959.github.io/hugosite/tags/hugo/</link>
     <description>Recent content in Hugo on Bolo Bolo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 20 Dec 2016 20:08:19 +0800</lastBuildDate>
     
-        <atom:link href="https://hugo_go-ged75356.codeanyapp.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ged1959.github.io/hugosite/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo Quick Start</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/posts/hugo-quick-start/</link>
+      <link>https://ged1959.github.io/hugosite/posts/hugo-quick-start/</link>
       <pubDate>Tue, 20 Dec 2016 20:08:19 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/posts/hugo-quick-start/</guid>
+      <guid>https://ged1959.github.io/hugosite/posts/hugo-quick-start/</guid>
       <description>
 
 &lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1: Install Hugo&lt;/h2&gt;
@@ -81,10 +81,10 @@ theme = &amp;#34;ananke&amp;#34;&lt;/pre&gt;&lt;/div&gt;
     
     <item>
       <title>Hello Hugo!</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/posts/hello-hugo/</link>
+      <link>https://ged1959.github.io/hugosite/posts/hello-hugo/</link>
       <pubDate>Mon, 01 Sep 2014 12:19:03 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/posts/hello-hugo/</guid>
+      <guid>https://ged1959.github.io/hugosite/posts/hello-hugo/</guid>
       <description>
 
 &lt;p&gt;Hello from Hugo! If you&amp;rsquo;re reading this in your browser, good job! The file &lt;code&gt;content/post/hello-hugo.md&lt;/code&gt; has been converted into a complete HTML document by Hugo. Isn&amp;rsquo;t that pretty nifty?&lt;/p&gt;

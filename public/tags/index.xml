@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bolo Bolo</title>
-    <link>https://hugo_go-ged75356.codeanyapp.com/tags/</link>
+    <link>https://ged1959.github.io/hugosite/tags/</link>
     <description>Recent content in Tags on Bolo Bolo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Sep 2014 12:19:03 +0800</lastBuildDate>
     
-        <atom:link href="https://hugo_go-ged75356.codeanyapp.com/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ged1959.github.io/hugosite/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/tags/blog/</link>
+      <link>https://ged1959.github.io/hugosite/tags/blog/</link>
       <pubDate>Mon, 01 Sep 2014 12:19:03 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/tags/blog/</guid>
+      <guid>https://ged1959.github.io/hugosite/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/tags/code/</link>
+      <link>https://ged1959.github.io/hugosite/tags/code/</link>
       <pubDate>Wed, 20 Dec 2017 12:33:21 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/tags/code/</guid>
+      <guid>https://ged1959.github.io/hugosite/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Example</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/tags/example/</link>
+      <link>https://ged1959.github.io/hugosite/tags/example/</link>
       <pubDate>Thu, 21 Dec 2017 23:30:36 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/tags/example/</guid>
+      <guid>https://ged1959.github.io/hugosite/tags/example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/tags/hugo/</link>
+      <link>https://ged1959.github.io/hugosite/tags/hugo/</link>
       <pubDate>Tue, 20 Dec 2016 20:08:19 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/tags/hugo/</guid>
+      <guid>https://ged1959.github.io/hugosite/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Images</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/tags/images/</link>
+      <link>https://ged1959.github.io/hugosite/tags/images/</link>
       <pubDate>Wed, 20 Dec 2017 12:36:50 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/tags/images/</guid>
+      <guid>https://ged1959.github.io/hugosite/tags/images/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Song</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/tags/song/</link>
+      <link>https://ged1959.github.io/hugosite/tags/song/</link>
       <pubDate>Thu, 21 Dec 2017 23:30:36 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/tags/song/</guid>
+      <guid>https://ged1959.github.io/hugosite/tags/song/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutorial</title>
-      <link>https://hugo_go-ged75356.codeanyapp.com/tags/tutorial/</link>
+      <link>https://ged1959.github.io/hugosite/tags/tutorial/</link>
       <pubDate>Tue, 20 Dec 2016 20:08:19 +0800</pubDate>
       
-      <guid>https://hugo_go-ged75356.codeanyapp.com/tags/tutorial/</guid>
+      <guid>https://ged1959.github.io/hugosite/tags/tutorial/</guid>
       <description></description>
     </item>
     
